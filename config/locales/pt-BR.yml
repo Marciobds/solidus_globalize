@@ -1,0 +1,8 @@
+en:
+  spree:
+    back_to_resource_list:  Voltar para lista de Localidades
+    globalize:
+      locales_displayed_on_translation_forms: Localidades exibidas em formulários de tradução
+      no_translations_for_criteria: Não há traduções para os critérios informados
+      character_limit: Limite de 255 caracteres
+      store_translations: Traduções da Loja
