@@ -1,4 +1,5 @@
-en:
+---
+pt-BR:
   spree:
     back_to_resource_list:  Voltar para lista de Localidades
     globalize:
