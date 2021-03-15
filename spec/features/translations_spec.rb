@@ -17,12 +17,12 @@ RSpec.describe "Translations" do
 
     around do |example|
       I18n.locale = 'pt-BR'
-      SolidusGlobalize::Config.supported_locales = [:en, :'pt-BR']
+      SolidusGlobalize::Config.supported_locales = [:en, :pt-BR]
 
       example.run
 
-      I18n.locale = 'en'
-      SolidusGlobalize::Config.supported_locales = [:en]
+      I18n.locale = 'pt-BR'
+      SolidusGlobalize::Config.supported_locales = [:en, :pt-BR]
     end
 
     it 'displays translated product page' do
